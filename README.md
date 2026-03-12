@@ -1,9 +1,10 @@
 # TodoList Skeleton (Symfony + Vue)
 
 ## Quick start
-1. Build and start the containers: `docker compose up -d --build`
-2. Backend: `http://localhost:8000`
-3. Frontend: `http://localhost:3000`
+1. Install frontend deps via Docker (no local npm needed): `docker compose run --rm frontend npm install`
+2. Build and start the containers: `docker compose up -d`
+3. Backend: `http://localhost:8000`
+4. Frontend: `http://localhost:3000`
 
 ## Symfony commands (inside the backend container)
 Run these from your host:
